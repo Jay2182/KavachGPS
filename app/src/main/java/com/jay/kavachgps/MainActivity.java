@@ -5,6 +5,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 
+import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
@@ -50,5 +51,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+
+
     }
 }

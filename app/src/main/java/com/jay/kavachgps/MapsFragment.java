@@ -18,7 +18,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsFragment extends Fragment {
 
-    private OnMapReadyCallback callback = new OnMapReadyCallback() {
+    private final OnMapReadyCallback callback = new OnMapReadyCallback() {
 
         /**
          * Manipulates the map once available.
@@ -31,9 +31,12 @@ public class MapsFragment extends Fragment {
          */
         @Override
         public void onMapReady(GoogleMap googleMap) {
-            LatLng sydney = new LatLng(-34, 151);
-            googleMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-            googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+//            LatLng sydney = new LatLng(-34, 151);
+//            googleMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+//            googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+            LatLng gandhinagar = new LatLng(23.2115722, 72.6316008);
+            googleMap.addMarker(new MarkerOptions().position(gandhinagar).title("Marker in Gandhinagar"));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(gandhinagar));
         }
     };
 
