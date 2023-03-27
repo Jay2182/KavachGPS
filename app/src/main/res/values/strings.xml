@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KavachGPS</string>
+    <string name="tab1">Your Location</string>
+    <string name="tab2">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="info_fragment">Info Fragment</string>
+    <string name="mao_fragment">Map Fragment</string>
+    <string name="map_key">AIzaSyBCG1acHYO_cYrzqTySHfdzZynIY4vwdvg</string>
+</resources>
