@@ -33,7 +33,7 @@
             android:layout_marginBottom="10sp"
             android:textSize="20sp"
             android:textColor="@color/black"
-            android:text="Latitude"
+            android:text="Latitude:"
             />
         <TextView
             android:id="@+id/latitude_tv"
@@ -63,7 +63,7 @@
             android:layout_marginBottom="10sp"
             android:textSize="20sp"
             android:textColor="@color/black"
-            android:text="Latitude"
+            android:text="Longitude:"
             />
         <TextView
             android:id="@+id/longitude_tv"
