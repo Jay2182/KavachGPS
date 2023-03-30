@@ -79,45 +79,6 @@
             />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/country_tv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/longitude_ll"
-        android:layout_marginRight="20sp"
-        android:layout_marginLeft="20sp"
-        android:layout_marginTop="10sp"
-        android:layout_marginBottom="10sp"
-        android:textSize="20sp"
-        android:textColor="@color/black"
-        android:text="Country"
-        />
-    <TextView
-        android:id="@+id/city_tv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/country_tv"
-        android:layout_marginRight="20sp"
-        android:layout_marginLeft="20sp"
-        android:layout_marginTop="10sp"
-        android:layout_marginBottom="10sp"
-        android:textSize="20sp"
-        android:textColor="@color/black"
-        android:text="city"
-        />
-    <TextView
-        android:id="@+id/address_tv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/city_tv"
-        android:layout_marginRight="20sp"
-        android:layout_marginLeft="20sp"
-        android:layout_marginTop="10sp"
-        android:layout_marginBottom="10sp"
-        android:textSize="20sp"
-        android:textColor="@color/black"
-        android:text="Address"
-        />
     <Button
         android:id="@+id/info_get_location_btn"
         android:layout_width="match_parent"

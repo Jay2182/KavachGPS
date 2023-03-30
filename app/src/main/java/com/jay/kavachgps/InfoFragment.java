@@ -34,7 +34,7 @@ import com.google.android.gms.tasks.Task;
 
 public class InfoFragment extends Fragment {
 
-    TextView longitude, latitude, address, country, city;
+    TextView longitude, latitude;
     Button getLocation;
     private final static int REQUEST_CODE = 100;
 
